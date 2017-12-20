@@ -1,0 +1,32 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+
+	<borderlayout>
+	
+		<north hflex="1" vflex="1">
+			north
+		</north>
+		
+		<center hflex="1" vflex="1"  >
+		<div>
+			
+			<borderlayout>
+			<east>
+			east
+		</east>
+			</borderlayout>
+			</div>
+		</center>
+		
+		<east>
+			east
+		</east>
+		
+		<west>
+		west
+		</west>
+			
+	</borderlayout>
+
+
+</zk>

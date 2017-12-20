@@ -1,0 +1,174 @@
+
+<zk>
+<borderlayout>
+
+<north hflex="1" vflex="1">
+
+<div id="ed" width="100%" style="background-color:LightGray">
+<image width="400px" height="100px" src="/images/banner5.jpg"/>
+</div>
+
+</north>
+
+
+
+<center>
+
+
+<div width="100%" height="100%" style="background-color:LightGray">												
+												
+												<div width="100%">
+												
+												
+												
+													<menubar>
+		
+		
+		
+		
+			<menu image="/images/evento.png" label="Eventos">
+				<menupopup>
+					<menuitem  label="Nuevo Evento" />
+					<menuseparator />
+					<menuitem label="Consultar Evento" />
+					<menuseparator />
+					<menuitem label="Actualizar Evento" />
+					<menuseparator />
+				
+					<menuseparator />
+					
+				</menupopup>
+			</menu>
+			<menu image="/images/emple.png" label="Empleados">
+				<menupopup>
+					<menuitem href="/vistas/RegistroEmpleado.zul" label="Nuevo Empleado" />
+					<menuseparator />
+					<menuitem label="Consultar Empleado" />
+					<menuseparator />
+					<menuitem label="Asignar Evento" />
+					<menuseparator />
+					
+					<menuseparator />
+					
+				</menupopup>
+			</menu>
+			
+			<menu image="/images/sobre.png" label="Mensajes">
+				<menupopup>
+					<menuitem label="Buzón de Entrada" />
+					<menuseparator />
+					<menuitem label="Mensajes Enviados" />
+					<menuseparator />
+					<menuitem label="Nuevo Mensaje" />
+					<menuseparator />
+					<menuitem label="Nuevo Mensaje Grupal" />
+					<menuseparator />
+					
+				</menupopup>
+			</menu>
+			
+			
+			
+			<menuitem image="/images/exit.png" label="Log-out" />
+		</menubar>
+													  </div>
+													  
+
+<borderlayout>
+<west>
+<div>
+
+<vbox id="BloqueAgenda">
+<auxhead><auxheader label="Agenda" style="text-align:center"/> </auxhead>
+<grid>
+		<columns>
+			<column style="text-align:center" label="Fecha: Sábado 02 de Noviembre de 2017 "/>
+			</columns>
+		
+		<rows>
+			<row>
+			Evento: Dangerous Woman Tour
+			</row>
+			
+			<row>
+			Lugar: Bangkok - Thailand
+			</row>
+			
+			<row>
+			Hora: 8:00 pm
+			</row>
+		
+		
+		
+		</rows>
+		
+	</grid>
+	</vbox>
+</div>
+</west>
+
+
+
+</borderlayout>
+</div>
+</center>
+
+
+
+<east>
+<window>
+
+<div width="600px" style="overflow-y: scroll" >
+
+
+
+<div style="background-color:LightGray" >
+
+
+<div id="engandtitle">
+<image width="25px" height="25px" src="/images/gear.png"/>
+<vbox>
+<label style="font-weight: bold;color:#000032; font-size:15px">Perfil de Usuario </label>
+<label style="font-weight: bold;color:#000032; font-size:15px">Nombre: Isaac Rodríguez</label>
+</vbox>
+</div>
+
+
+<div style="text-align:right; background-color:LightGray;" >
+<image width="100px" height="100%" src="/images/profile.png"/>
+</div>
+
+
+</div>
+
+<calendar />
+
+<grid>
+		<columns>
+			<column style="text-align: center" label="Buzón"/>
+			
+		</columns>
+		<rows>
+			<row >
+				Mensaje 
+				
+			</row>
+			
+			<row>
+				De:
+				
+			</row>
+			
+			
+</rows>
+	</grid>
+
+<image src="/images/sobre.png"/>
+
+</div>
+</window>
+</east>
+
+
+</borderlayout>
+</zk>
